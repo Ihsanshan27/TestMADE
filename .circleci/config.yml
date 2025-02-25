@@ -44,6 +44,3 @@ jobs:
       - store_artifacts:
           path: app/build/outputs/apk/debug/
           destination: artifact-file
-    - run:
-    name: Clean Gradle Cache
-    command: rm -rf ~/.gradle/caches && rm -rf ~/.gradle/wrapper
